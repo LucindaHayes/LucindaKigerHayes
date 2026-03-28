@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LKH Consulting | Transformation & Operations</title>
+    <title>LKH Consulting | Transformation & Strategic Operations</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         html { scroll-behavior: smooth; }
-        .hero-bg {
-            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('2016-02-16 06.37.14.jpg');
+        .hero-overlay {
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('2016-02-16 06.37.14.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .stone-overlay {
+            background: linear-gradient(rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.9)), url('IMG_2558.JPG');
             background-size: cover;
             background-position: center;
         }
@@ -18,160 +23,146 @@
 <body class="bg-white text-slate-900 font-sans leading-relaxed">
 
     <!-- Navigation -->
-    <nav class="fixed w-full z-50 bg-white/95 border-b border-slate-100 backdrop-blur-sm">
+    <nav class="fixed w-full z-50 bg-slate-950/95 border-b border-slate-800 backdrop-blur-md">
         <div class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center">
-            <div class="text-2xl font-black tracking-tighter text-slate-900 uppercase">
-                <span class="text-blue-600">LKH</span> CONSULTING
+            <div class="text-2xl font-black tracking-tighter text-white uppercase">
+                <span class="text-blue-500">LKH</span> CONSULTING
             </div>
-            <div class="hidden lg:flex space-x-10 text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500">
-                <a href="#about" class="hover:text-blue-600 transition">About</a>
-                <a href="#fintech" class="hover:text-blue-600 transition">Fintech</a>
-                <a href="#philanthropy" class="hover:text-blue-600 transition">Philanthropy</a>
-                <a href="#contact" class="text-blue-600 border border-blue-600 px-4 py-2 hover:bg-blue-600 hover:text-white transition">Connect</a>
+            <div class="hidden lg:flex space-x-10 text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
+                <a href="#transformation" class="hover:text-white transition">Transformation</a>
+                <a href="#fintech" class="hover:text-white transition">Fintech</a>
+                <a href="#philanthropy" class="hover:text-white transition">Philanthropy</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 hover:bg-blue-500 transition">Get Started</a>
             </div>
         </div>
     </nav>
 
-    <!-- Section 1: Hero (White/Light) -->
-    <header class="hero-bg h-screen flex items-center px-8 lg:px-24">
+    <!-- Section 1: Hero (Dark Mode / Global Vision) -->
+    <header class="hero-overlay h-screen flex items-center px-8 lg:px-24">
         <div class="max-w-4xl">
-            <p class="text-blue-600 font-bold tracking-[0.5em] uppercase text-xs mb-6">Operations • Strategy • Transformation</p>
-            <h1 class="text-6xl md:text-8xl font-black text-slate-900 mb-8 tracking-tighter leading-none">
-                Optimizing Impact. <br>Driven by Purpose.
+            <p class="text-blue-400 font-bold tracking-[0.5em] uppercase text-xs mb-6">Principal • Business Operations • Strategy</p>
+            <h1 class="text-6xl md:text-8xl font-black text-white mb-8 tracking-tighter leading-none">
+                Optimizing Impact. <br><span class="text-blue-500 italic">Driven by Data.</span>
             </h1>
-            <p class="text-xl text-slate-600 mb-10 max-w-2xl font-light">
-                Bridging the gap between technology and trust through 20+ years of operational excellence in global Fintech and Philanthropy.
+            <p class="text-xl text-slate-300 mb-10 max-w-2xl font-light">
+                Leveraging 20+ years of operational excellence at industry leaders like InvestCloud and Fiserv to bridge the gap between technology and trust.
             </p>
-            <a href="#fintech" class="bg-blue-600 text-white px-10 py-5 font-bold hover:bg-blue-700 transition text-xs tracking-widest uppercase inline-block">Explore Solutions</a>
+            <div class="flex gap-6">
+                <a href="#fintech" class="bg-blue-600 text-white px-10 py-5 font-bold hover:bg-blue-700 transition text-xs tracking-widest uppercase">View Fintech Solutions</a>
+            </div>
         </div>
     </header>
 
-    <!-- Section 2: About (Blue) -->
-    <section id="about" class="py-32 bg-blue-600 text-white">
+    <!-- Section 2: Transformation (White / Clean) -->
+    <section id="transformation" class="py-32 bg-white">
         <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-2 gap-24 items-center">
-            <div class="relative">
-                <img src="headshot.jpg" alt="Lucinda Kiger Hayes" class="w-full shadow-2xl grayscale hover:grayscale-0 transition duration-700">
-            </div>
             <div>
-                <h3 class="text-blue-200 font-bold uppercase tracking-widest mb-4 text-xs">Principal, Business Operations</h3>
-                <h2 class="text-4xl font-black mb-8 leading-tight italic">"There has to be a better way."</h2>
-                <p class="text-lg mb-8 font-light leading-relaxed">
-                    Inspired by a commitment to innovation and community, LKH Consulting specializes in designing efficient processes and implementing technology solutions to achieve high-level strategic goals.
+                <h3 class="text-blue-600 font-bold uppercase tracking-widest mb-4 text-xs">Transformation Strategy</h3>
+                <h2 class="text-5xl font-black mb-8 leading-tight text-slate-900 uppercase tracking-tighter">"There has to be <br>a better way."</h2>
+                <p class="text-lg text-slate-600 mb-8 font-light leading-relaxed">
+                    Inspired by the mantra of visionary leadership, LKH Consulting specializes in designing efficient processes, implementing technology solutions, and enhancing team collaboration to achieve strategic goals.
                 </p>
-                <div class="grid grid-cols-2 gap-10 pt-8 border-t border-blue-400">
+                <div class="grid grid-cols-2 gap-10 pt-8 border-t border-slate-100">
                     <div>
-                        <h4 class="font-bold text-[10px] uppercase tracking-widest mb-4">Core Skills</h4>
-                        <ul class="text-sm space-y-2 text-blue-100">
+                        <h4 class="font-bold text-slate-900 text-[10px] uppercase tracking-widest mb-4">Core Skillsets</h4>
+                        <ul class="text-sm space-y-2 text-slate-500 font-medium">
                             <li>Data Analytics</li>
-                            <li>Process Improvement</li>
+                            <li>Portfolio Management</li>
                             <li>Six Sigma Green Belt</li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="font-bold text-[10px] uppercase tracking-widest mb-4">Transformation</h4>
-                        <ul class="text-sm space-y-2 text-blue-100">
-                            <li>SaaS Global Scaling</li>
+                        <h4 class="font-bold text-slate-900 text-[10px] uppercase tracking-widest mb-4">Digital Systems</h4>
+                        <ul class="text-sm space-y-2 text-slate-500 font-medium">
                             <li>CRM Integration</li>
-                            <li>Portfolio Management</li>
+                            <li>SaaS Global Scaling</li>
+                            <li>System Architecture</li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div class="relative">
+                <img src="headshot.jpg" alt="Lucinda Kiger Hayes" class="w-full shadow-2xl grayscale hover:grayscale-0 transition duration-700 border-8 border-slate-50">
+            </div>
         </div>
     </section>
 
-    <!-- Section 3: Fintech (White) -->
-    <section id="fintech" class="py-32 bg-white">
+    <!-- Section 3: Fintech Performance (Deep Navy) -->
+    <section id="fintech" class="py-32 bg-slate-950 text-white">
         <div class="max-w-7xl mx-auto px-8">
             <div class="flex flex-col lg:flex-row justify-between items-end mb-24 gap-12">
                 <div class="max-w-3xl">
-                    <h2 class="text-5xl font-black text-slate-900 mb-6 tracking-tighter uppercase">Fintech Leadership</h2>
-                    <p class="text-xl text-slate-600 font-light">Directing multi-track initiatives to improve customer experience and increase client loyalty across global wealth platforms.</p>
+                    <h2 class="text-5xl font-black text-white mb-6 tracking-tighter uppercase italic">Fintech Operational <span class="text-blue-500 not-italic">Leadership.</span></h2>
+                    <p class="text-xl text-slate-400 font-light">Directing multi-track initiatives to improve customer experience and increase client loyalty across global wealth platforms.</p>
                 </div>
-                <div class="text-right">
-                    <p class="text-7xl font-black text-blue-600 tracking-tighter">+21</p>
-                    <p class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">NPS Point Increase</p>
-                </div>
-            </div>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="p-10 border border-slate-100 bg-slate-50 hover:border-blue-600 transition">
-                    <h3 class="font-black text-xs uppercase mb-4 tracking-widest">Global SaaS</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed">Scaling wealth management solutions with pre-integrated cloud technology for a first-class digital experience.</p>
-                </div>
-                <div class="p-10 border border-slate-100 bg-slate-50 hover:border-blue-600 transition">
-                    <h3 class="font-black text-xs uppercase mb-4 tracking-widest">Release Management</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed">Streamlining readiness templates and ensuring cross-team alignment for complex product deployments.</p>
-                </div>
-                <div class="p-10 border border-slate-100 bg-slate-50 hover:border-blue-600 transition">
-                    <h3 class="font-black text-xs uppercase mb-4 tracking-widest">Operational Efficiency</h3>
-                    <p class="text-sm text-slate-500 leading-relaxed">Leveraging data-driven decisions and Six Sigma methodology to optimize business information lifecycles.</p>
+                <div class="text-right bg-blue-600 p-10 shadow-xl">
+                    <p class="text-7xl font-black text-white tracking-tighter">+21</p>
+                    <p class="text-[10px] font-black uppercase tracking-[0.3em] text-blue-100">NPS Point Increase</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Section 4: Philanthropy (Black) -->
-    <section id="philanthropy" class="py-32 bg-slate-950 text-white">
-        <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-2 gap-24 items-center">
-            <div>
-                <h2 class="text-5xl font-black mb-8 tracking-tighter uppercase">Director of Philanthropic Operations</h2>
-                <p class="text-lg text-slate-400 mb-10 font-light leading-relaxed">
-                    Advancing mission-driven impact through innovative operational management. Specializing in scaling charitable gifting funds and optimizing stakeholder collaboration.
-                </p>
-                <div class="space-y-6">
-                    <div class="flex items-start gap-4">
-                        <i class="fas fa-check text-blue-500 mt-1"></i>
-                        <p class="text-sm text-slate-300">Operationalizing account onboarding and implementation workflows.</p>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <i class="fas fa-check text-blue-500 mt-1"></i>
-                        <p class="text-sm text-slate-300">Fostering partnerships with advisors to enable meaningful giving.</p>
-                    </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 bg-slate-900 border border-slate-800 hover:bg-slate-800 transition">
+                    <h3 class="font-black text-xs uppercase mb-4 tracking-widest text-blue-400">Global SaaS Ops</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Scaling wealth management solutions with pre-integrated cloud technology for first-class digital client experiences.</p>
                 </div>
-            </div>
-            <div class="relative">
-                <img src="IMG_2558.JPG" alt="Foundational Strength" class="w-full opacity-60 hover:opacity-100 transition duration-700">
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 5: Endorsements (Blue) -->
-    <section class="py-32 bg-blue-600 text-white text-center">
-        <div class="max-w-5xl mx-auto px-8">
-            <h2 class="text-[10px] font-black uppercase tracking-[0.6em] mb-16 opacity-70">Executive Endorsements</h2>
-            <div class="grid lg:grid-cols-2 gap-16 text-left">
-                <div class="bg-white/10 p-10 backdrop-blur-sm">
-                    <p class="text-lg font-light italic mb-6">"A business leader who understands technical aspects as well as the larger business vision."</p>
-                    <p class="font-black text-[10px] uppercase tracking-widest">— Jeff Lee, Senior Vice President</p>
+                <div class="p-10 bg-slate-900 border border-slate-800 hover:bg-slate-800 transition">
+                    <h3 class="font-black text-xs uppercase mb-4 tracking-widest text-blue-400">Release Readiness</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Remarkable expertise in developing readiness templates and ensuring cross-team alignment for complex product deployments.</p>
                 </div>
-                <div class="bg-white/10 p-10 backdrop-blur-sm">
-                    <p class="text-lg font-light italic mb-6">"Her analytical prowess, creativity, and excellent communication make her an invaluable asset."</p>
-                    <p class="font-black text-[10px] uppercase tracking-widest">— Hilary Fiorella, Retired Director</p>
+                <div class="p-10 bg-slate-900 border border-slate-800 hover:bg-slate-800 transition">
+                    <h3 class="font-black text-xs uppercase mb-4 tracking-widest text-blue-400">Metric Models</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">Leveraging data-driven decisions and logical models to optimize business information lifecycles and profitability.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 6: Footer & Social (White) -->
-    <footer id="contact" class="py-32 bg-white text-center">
+    <!-- Section 4: Philanthropy (LKH Blue / Image Hybrid) -->
+    <section id="philanthropy" class="stone-overlay py-40 text-white">
         <div class="max-w-7xl mx-auto px-8">
-            <h2 class="text-[10px] font-black uppercase tracking-[0.8em] text-slate-300 mb-16">Connect with LKH Consulting</h2>
-            
-            <div class="grid lg:grid-cols-2 gap-12 items-center border-y border-slate-100 py-20">
-                <div class="text-left lg:border-r border-slate-100 lg:pr-12">
-                    <h3 class="text-xs font-black uppercase tracking-widest mb-4 text-blue-600">Email Inquiry</h3>
-                    <a href="mailto:loubindy@yahoo.com" class="text-3xl lg:text-5xl font-black text-slate-900 hover:text-blue-600 transition tracking-tighter">loubindy@yahoo.com</a>
+            <div class="max-w-3xl">
+                <h2 class="text-5xl font-black mb-8 tracking-tighter uppercase">Philanthropic Operations</h2>
+                <p class="text-2xl font-light mb-12 leading-relaxed text-blue-50">
+                    Advancing mission-driven impact through innovative operational management. Specializing in scaling charitable gifting funds and fostering partnerships with community stakeholders.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-arrow-right text-white mt-1"></i>
+                        <p class="text-sm font-bold uppercase tracking-widest">Account Onboarding</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-arrow-right text-white mt-1"></i>
+                        <p class="text-sm font-bold uppercase tracking-widest">Stakeholder Strategy</p>
+                    </div>
                 </div>
-                <div class="text-left lg:pl-12">
-                    <h3 class="text-xs font-black uppercase tracking-widest mb-4 text-blue-600">LinkedIn Profile</h3>
-                    <a href="https://www.linkedin.com/in/lucindahayes" target="_blank" class="text-3xl lg:text-5xl font-black text-slate-900 hover:text-blue-600 transition tracking-tighter">View Professional Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Connect & Social (Footer / Professional) -->
+    <footer id="contact" class="py-32 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-8 text-center">
+            <h2 class="text-[10px] font-black uppercase tracking-[1em] text-slate-300 mb-20">LKH Consulting • Professional Network</h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-24">
+                <div class="text-left p-12 bg-slate-50 border border-slate-100">
+                    <h3 class="text-xs font-black uppercase tracking-widest mb-6 text-blue-600">Direct Contact</h3>
+                    <a href="mailto:loubindy@yahoo.com" class="text-4xl lg:text-5xl font-black text-slate-900 hover:text-blue-600 transition tracking-tighter">loubindy@yahoo.com</a>
+                </div>
+                <div class="text-left p-12 bg-slate-900 text-white">
+                    <h3 class="text-xs font-black uppercase tracking-widest mb-6 text-blue-500">Executive Profile</h3>
+                    <a href="https://www.linkedin.com/in/lucindahayes" target="_blank" class="text-3xl lg:text-4xl font-black text-white hover:text-blue-400 transition tracking-tighter flex items-center gap-4">
+                        <i class="fab fa-linkedin"></i> linkedin.com/in/lucindahayes
+                    </a>
                 </div>
             </div>
 
-            <p class="mt-20 text-slate-400 text-xs font-light max-w-xl mx-auto">
-                Small town roots, global impact. Delivering measurable results that foster growth and innovation.
-            </p>
-            <p class="mt-10 text-[8px] text-slate-300 uppercase tracking-[0.8em]">&copy; 2026 LKH Consulting. All rights reserved.</p>
+            <div class="max-w-3xl mx-auto border-t border-slate-100 pt-16">
+                <p class="text-slate-400 text-xs font-light mb-8">
+                    Deliver measurable results that foster growth and innovation. Driven by a persistence of excellence and a vision for the future.
+                </p>
+                <p class="text-[8px] text-slate-300 uppercase tracking-[0.8em]">&copy; 2026 LKH Consulting. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
