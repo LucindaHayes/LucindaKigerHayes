@@ -3,163 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucinda Kiger Hayes | Transformation Consultant</title>
+    <title>Lucinda Kiger Hayes | Strategic Transformation Consultant</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         html { scroll-behavior: smooth; }
-        .hero-gradient {
-            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('2016-02-16 06.37.14.jpg');
+        .fintech-hero {
+            /* Using your horizon shot to signal global reach and high-level vision */
+            background: linear-gradient(rgba(10, 20, 40, 0.8), rgba(10, 20, 40, 0.8)), url('2016-02-16 06.37.14.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
-        .service-card:hover { transform: translateY(-10px); transition: all 0.3s ease; }
+        .abstract-tech {
+            /* Using your frost photo for a 'Cloud/Data' abstract feel */
+            background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('AirBrush_20180209160900.jpg');
+            background-size: cover;
+        }
+        .headshot-border {
+            /* Styling to 'modify' your headshot into a professional standard */
+            box-shadow: 0 0 0 10px rgba(59, 130, 246, 0.1);
+            filter: contrast(1.05) saturate(0.9); /* Subtle professional color grading */
+        }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans">
+<body class="bg-white text-slate-900">
 
-    <!-- Sticky Navigation -->
-    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+    <!-- Global Navigation -->
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-lg border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-xl font-black tracking-tighter text-slate-800 uppercase">LKH <span class="text-blue-600">Consulting</span></div>
-            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-600">
-                <a href="#about" class="hover:text-blue-600">Expertise</a>
-                <a href="#fintech" class="hover:text-blue-600">Fintech</a>
-                <a href="#philanthropy" class="hover:text-blue-600">Philanthropy</a>
-                <a href="#testimonials" class="hover:text-blue-600">Impact</a>
-                <a href="mailto:loubindy@yahoo.com" class="text-blue-600 border-b-2 border-blue-600 pb-1">Get in Touch</a>
+            <div class="text-white text-xl font-bold tracking-widest uppercase">LKH <span class="text-blue-500 font-light">Consulting</span></div>
+            <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                <a href="#transformation" class="hover:text-white transition">Transformation</a>
+                <a href="#fintech" class="hover:text-white transition">Fintech</a>
+                <a href="#philanthropy" class="hover:text-white transition">Philanthropy</a>
+                <a href="mailto:loubindy@yahoo.com" class="text-white bg-blue-600 px-5 py-2 rounded-sm hover:bg-blue-500">Engage</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-gradient h-screen flex items-center justify-center text-center px-6">
-        <div class="max-w-5xl">
-            <h2 class="text-blue-400 font-bold tracking-[0.3em] uppercase mb-4">Operational Excellence & Strategic Vision</h2>
-            <h1 class="text-5xl md:text-8xl font-extrabold text-white mb-8 leading-tight">Optimizing Impact at the Intersection of Wealth & Purpose.</h1>
-            <p class="text-xl md:text-2xl text-slate-200 mb-10 max-w-3xl mx-auto font-light">
-                Empowering global organizations through **AI-accelerated transformation**, sophisticated fintech operations, and scalable philanthropic strategy.
+    <!-- Hero: Global Vision -->
+    <header class="fintech-hero h-screen flex items-center justify-center text-center px-6">
+        <div class="max-w-4xl">
+            <h2 class="text-blue-400 font-bold tracking-[0.4em] uppercase mb-4 text-sm">Strategic Operations & Philanthropic Design</h2>
+            <h1 class="text-5xl md:text-7xl font-light text-white mb-8">Optimizing Impact. <br><span class="font-bold">Bridging Wealth & Purpose.</span></h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Empowering organizations through 20+ years of **operational excellence** at the intersection of global Fintech and innovative Philanthropy [4, 5].
             </p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="#fintech" class="bg-blue-600 text-white px-10 py-4 rounded-full font-bold hover:bg-blue-700 transition">Fintech Solutions</a>
-                <a href="#philanthropy" class="bg-white text-slate-900 px-10 py-4 rounded-full font-bold hover:bg-slate-200 transition">Philanthropic Operations</a>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#fintech" class="border-b border-blue-500 text-white pb-2 hover:text-blue-400 transition font-bold uppercase tracking-widest text-xs">Explore Fintech Solutions</a>
+                <a href="#philanthropy" class="border-b border-blue-500 text-white pb-2 hover:text-blue-400 transition font-bold uppercase tracking-widest text-xs">Philanthropic Strategy</a>
             </div>
         </div>
     </header>
 
-    <!-- Expertise / About -->
-    <section id="about" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-            <div>
-                <img src="IMG_4891.JPG" alt="Strategic Growth" class="rounded-3xl shadow-2xl">
+    <!-- The Consultant: Transformation Section -->
+    <section id="transformation" class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+            <div class="relative">
+                <!-- Instruction: Replace 'headshot.jpg' with your actual file name -->
+                <img src="headshot.jpg" alt="Lucinda Kiger Hayes" class="headshot-border rounded-lg grayscale hover:grayscale-0 transition duration-700 w-full shadow-2xl">
+                <div class="absolute -bottom-6 -right-6 bg-slate-900 text-white p-8 hidden md:block">
+                    <p class="text-3xl font-bold">20+</p>
+                    <p class="text-xs uppercase tracking-widest text-slate-400">Years Industry <br>Leadership</p>
+                </div>
             </div>
             <div>
-                <h3 class="text-blue-600 font-bold uppercase tracking-widest mb-2">The Consultant</h3>
-                <h2 class="text-4xl font-bold mb-6">Driving Measurable Results via Data & Design.</h2>
-                <p class="text-lg text-slate-600 mb-6">
-                    As a **Transformation Consultant**, I optimize operations and drive impactful change [5]. With a **Six Sigma Green Belt** and 20+ years of experience at industry leaders like **Fiserv** and **InvestCloud**, I specialize in bridging the gap between technology and trust [6-8].
+                <h3 class="text-blue-600 font-bold uppercase tracking-widest mb-4">The Visionary</h3>
+                <h2 class="text-4xl font-bold mb-8 leading-snug text-slate-900">Transformation Driven by Data and "Unwavering Determination" [6].</h2>
+                <p class="text-lg text-slate-600 mb-6 italic">
+                    "I empower organizations to optimize operations and drive impactful change through efficient processes and technology integration" [7].
                 </p>
-                <ul class="space-y-4 font-semibold text-slate-800">
-                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Business Process Improvement & Data Analytics [7]</li>
-                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> AI-Expedited Website & Brand Development</li>
-                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Portfolio Management & Strategic Implementation [7]</li>
-                </ul>
+                <div class="grid grid-cols-2 gap-8 mt-12">
+                    <div>
+                        <h4 class="font-black text-slate-800 text-sm uppercase mb-2">Technical Core</h4>
+                        <p class="text-sm text-slate-500">Six Sigma Green Belt, CRM Architecture, and Portfolio Management [8].</p>
+                    </div>
+                    <div>
+                        <h4 class="font-black text-slate-800 text-sm uppercase mb-2">Strategy</h4>
+                        <p class="text-sm text-slate-500">Driving 21-point NPS increases and global SaaS scaling [5].</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Fintech Section -->
-    <section id="fintech" class="py-24 bg-slate-900 text-white">
+    <!-- Services: Fintech & Philanthropy -->
+    <section id="fintech" class="py-24 abstract-tech border-y border-slate-100">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">Fintech Operational Leadership</h2>
-                <p class="text-slate-400 text-xl max-w-2xl mx-auto">First-class financial digital solutions pre-integrated in the cloud [9].</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700 service-card">
-                    <i class="fas fa-chart-line text-4xl text-blue-400 mb-6"></i>
-                    <h3 class="text-2xl font-bold mb-4">SaaS Operations</h3>
-                    <p class="text-slate-400">Scaling global wealth management platforms with focus on data management and operational efficiency [8, 10].</p>
-                </div>
-                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700 service-card">
-                    <i class="fas fa-code-branch text-4xl text-blue-400 mb-6"></i>
-                    <h3 class="text-2xl font-bold mb-4">Release Management</h3>
-                    <p class="text-slate-400">Streamlining complex release readiness templates and procedures across multi-product environments [11, 12].</p>
-                </div>
-                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700 service-card">
-                    <i class="fas fa-users-cog text-4xl text-blue-400 mb-6"></i>
-                    <h3 class="text-2xl font-bold mb-4">Client Loyalty</h3>
-                    <p class="text-slate-400">Driving 21-point increases in Net Promoter Scores through data-driven customer experience programs [3].</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Philanthropy Section -->
-    <section id="philanthropy" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h3 class="text-blue-600 font-bold uppercase tracking-widest mb-2">Philanthropic Operations</h3>
-            <h2 class="text-4xl font-bold mb-12 text-slate-900">Advancing Impact Through Innovative Management.</h2>
-            <div class="grid md:grid-cols-2 gap-12 text-left">
-                <div class="p-8 bg-slate-50 rounded-3xl flex gap-6">
-                    <div class="text-blue-600 text-3xl"><i class="fas fa-hands-holding-circle"></i></div>
-                    <div>
-                        <h4 class="text-xl font-bold mb-2">Strategic Philanthropy</h4>
-                        <p class="text-slate-600 italic">Optimizing processes and fostering partnerships with advisors to enable meaningful charitable giving [1].</p>
-                    </div>
-                </div>
-                <div class="p-8 bg-slate-50 rounded-3xl flex gap-6">
-                    <div class="text-blue-600 text-3xl"><i class="fas fa-network-wired"></i></div>
-                    <div>
-                        <h4 class="text-xl font-bold mb-2">SaaS Integration</h4>
-                        <p class="text-slate-600 italic">Operationalizing account onboarding and implementation workflows for Philanthropic SaaS Platforms [2].</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-24 bg-blue-600 text-white">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16 italic">"A business leader who understands and executes on the larger vision."</h2>
             <div class="grid md:grid-cols-2 gap-12">
-                <blockquote class="bg-white/10 p-8 rounded-2xl">
-                    <p class="mb-4">"Lucinda is the 'Jack of all trades.' For every requirement asked of her, she provides excellent and detailed work... she sees every project til completion."</p>
-                    <cite class="font-bold">— Krystle Gelera, InvestCloud [13]</cite>
-                </blockquote>
-                <blockquote class="bg-white/10 p-8 rounded-2xl">
-                    <p class="mb-4">"Lucinda possesses a unique skill set, combining analytical prowess, creativity, and excellent communication... an invaluable asset."</p>
-                    <cite class="font-bold">— Hilary Fiorella, Retired Director [14]</cite>
-                </blockquote>
+                <!-- Fintech Pillar -->
+                <div class="p-12 bg-white/50 backdrop-blur-md border border-white shadow-sm">
+                    <i class="fas fa-microchip text-3xl text-blue-600 mb-8"></i>
+                    <h3 class="text-2xl font-bold mb-4 uppercase tracking-tight">Fintech Operations</h3>
+                    <p class="text-slate-600 mb-6">Scaling **SaaS-based wealth management** global solutions with a focus on first-class digital client experiences [2].</p>
+                    <ul class="text-sm space-y-3 text-slate-500">
+                        <li><i class="fas fa-caret-right text-blue-400 mr-2"></i> Release Readiness & multi-product procedures [9].</li>
+                        <li><i class="fas fa-caret-right text-blue-400 mr-2"></i> Strategic Business Operations Analysis [10].</li>
+                    </ul>
+                </div>
+                <!-- Philanthropy Pillar -->
+                <div class="p-12 bg-slate-900 text-white shadow-2xl">
+                    <i class="fas fa-globe-americas text-3xl text-blue-400 mb-8"></i>
+                    <h3 class="text-2xl font-bold mb-4 uppercase tracking-tight">Philanthropic Strategy</h3>
+                    <p class="text-slate-400 mb-6">Advancing impact through **innovative operational management** and stakeholder collaboration [11].</p>
+                    <ul class="text-sm space-y-3 text-slate-400">
+                        <li><i class="fas fa-caret-right text-blue-500 mr-2"></i> Account Onboarding & Workflow Implementation [12].</li>
+                        <li><i class="fas fa-caret-right text-blue-500 mr-2"></i> Scaling Charitable Gifting Funds for high impact [11].</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Professional Gallery (The Vision) -->
-    <section class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <img src="IMG_8196.JPG" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Metamorphosis">
-                <img src="IMG_5672.JPG" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Focus">
-                <img src="AirBrush_20180209160900.jpg" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Precision">
-                <img src="IMG_8139.jpg" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Momentum">
+    <!-- Industry Endorsements -->
+    <section id="impact" class="py-24 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-xs font-black uppercase tracking-[0.3em] text-slate-400 mb-12">Proven Leadership Endorsements</h2>
+            <div class="grid md:grid-cols-2 gap-16 text-left">
+                <div class="border-l-4 border-blue-500 pl-8">
+                    <p class="text-slate-600 mb-6 leading-relaxed">"Lucinda possesses a unique skill set, combining analytical prowess, creativity, and excellent communication... an invaluable asset" [13].</p>
+                    <p class="font-bold text-slate-800">— Hilary Fiorella</p>
+                    <p class="text-xs text-slate-500 uppercase">Retired Director & Manager</p>
+                </div>
+                <div class="border-l-4 border-slate-900 pl-8">
+                    <p class="text-slate-600 mb-6 leading-relaxed">"A business leader who understands and can execute on the technical aspects... as well as providing perspective on the larger business vision" [14].</p>
+                    <p class="font-bold text-slate-800">— Jeff Lee</p>
+                    <p class="text-xs text-slate-500 uppercase">SVP, Rockefeller Capital Management</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-white py-20">
+    <!-- Professional Footer -->
+    <footer class="bg-slate-950 text-white py-20 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-6 italic text-blue-400">"There has to be a better way."</h2>
-            <p class="text-slate-400 mb-10 text-lg">Let's find it together.</p>
-            <a href="mailto:loubindy@yahoo.com" class="text-2xl font-bold hover:text-blue-400 transition underline underline-offset-8 decoration-blue-500">loubindy@yahoo.com</a>
-            <div class="mt-16 flex justify-center space-x-8 text-slate-500">
-                <a href="#"><i class="fab fa-linkedin text-2xl"></i></a>
-                <a href="#"><i class="fab fa-facebook text-2xl"></i></a>
+            <h2 class="text-2xl font-light mb-8 italic text-slate-400">"There has to be a better way." [15]</h2>
+            <a href="mailto:loubindy@yahoo.com" class="text-3xl font-bold hover:text-blue-400 transition tracking-tighter">loubindy@yahoo.com</a>
+            <div class="mt-12 flex justify-center space-x-12 grayscale opacity-50">
+                <i class="fab fa-linkedin text-2xl"></i>
+                <i class="fas fa-award text-2xl"></i>
+                <i class="fas fa-shield-alt text-2xl"></i>
             </div>
-            <p class="mt-10 text-xs text-slate-600 uppercase tracking-widest">&copy; 2026 Lucinda Kiger Hayes. All Rights Reserved.</p>
+            <p class="mt-16 text-[10px] text-slate-700 uppercase tracking-[0.5em]">&copy; 2026 Lucinda Kiger Hayes | Lewisburg Class of 1988 [16]</p>
         </div>
     </footer>
 
