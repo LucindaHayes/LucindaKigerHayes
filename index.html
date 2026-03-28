@@ -3,90 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucinda Kiger Hayes | Strategic Visuals & AI Consulting</title>
+    <title>Lucinda Kiger Hayes | Transformation Consultant</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        .hero-bg {
-            /* Using the superior sunset silhouette from your Facebook source */
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('IMG_4759.jpg');
+        html { scroll-behavior: smooth; }
+        .hero-gradient {
+            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('2016-02-16 06.37.14.jpg');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
         }
+        .service-card:hover { transform: translateY(-10px); transition: all 0.3s ease; }
     </style>
 </head>
-<body class="bg-gray-50 font-sans text-gray-900">
+<body class="bg-slate-50 text-slate-900 font-sans">
 
-    <!-- Navigation -->
-    <nav class="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <span class="text-2xl font-bold tracking-tight text-gray-800 uppercase">Lucinda Kiger Hayes</span>
-            <div class="space-x-8 hidden md:flex font-medium uppercase text-sm tracking-wider">
-                <a href="#services" class="hover:text-blue-600 transition">Services</a>
-                <a href="#about" class="hover:text-blue-600 transition">Our Roots</a>
-                <a href="#portfolio" class="hover:text-blue-600 transition">Vision</a>
-                <a href="mailto:loubindy@yahoo.com" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">Contact</a>
+    <!-- Sticky Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-black tracking-tighter text-slate-800 uppercase">LKH <span class="text-blue-600">Consulting</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-600">
+                <a href="#about" class="hover:text-blue-600">Expertise</a>
+                <a href="#fintech" class="hover:text-blue-600">Fintech</a>
+                <a href="#philanthropy" class="hover:text-blue-600">Philanthropy</a>
+                <a href="#testimonials" class="hover:text-blue-600">Impact</a>
+                <a href="mailto:loubindy@yahoo.com" class="text-blue-600 border-b-2 border-blue-600 pb-1">Get in Touch</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-bg h-screen flex items-center justify-center text-center text-white px-4">
-        <div class="max-w-4xl">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6">Bridging Community Legacy with Future Technology</h1>
-            <p class="text-xl md:text-2xl mb-8 font-light italic">"There has to be a better way."</p>
-            <a href="#services" class="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition">Explore Services</a>
+    <header class="hero-gradient h-screen flex items-center justify-center text-center px-6">
+        <div class="max-w-5xl">
+            <h2 class="text-blue-400 font-bold tracking-[0.3em] uppercase mb-4">Operational Excellence & Strategic Vision</h2>
+            <h1 class="text-5xl md:text-8xl font-extrabold text-white mb-8 leading-tight">Optimizing Impact at the Intersection of Wealth & Purpose.</h1>
+            <p class="text-xl md:text-2xl text-slate-200 mb-10 max-w-3xl mx-auto font-light">
+                Empowering global organizations through **AI-accelerated transformation**, sophisticated fintech operations, and scalable philanthropic strategy.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#fintech" class="bg-blue-600 text-white px-10 py-4 rounded-full font-bold hover:bg-blue-700 transition">Fintech Solutions</a>
+                <a href="#philanthropy" class="bg-white text-slate-900 px-10 py-4 rounded-full font-bold hover:bg-slate-200 transition">Philanthropic Operations</a>
+            </div>
         </div>
-    </section>
+    </header>
 
-    <!-- About Section -->
+    <!-- Expertise / About -->
     <section id="about" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-            <div class="md:w-1/2">
-                <!-- Using your historical building photo -->
-                <img src="IMG_2558.JPG" alt="Historical Architecture" class="rounded-2xl shadow-xl w-full">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <img src="IMG_4891.JPG" alt="Strategic Growth" class="rounded-3xl shadow-2xl">
             </div>
-            <div class="md:w-1/2">
-                <h2 class="text-4xl font-bold mb-6">A Legacy of "Kindness and Drive"</h2>
-                <p class="text-lg text-gray-700 mb-6">Coming from a small town like **Lewisburg** taught me that there are no limits to what we can achieve. My professional journey is rooted in the same **unwavering determination** and **forward-thinking vision** I've seen in the world's most successful entrepreneurs.</p>
-                <p class="text-lg text-gray-700">As the resident photographer for the **Berkeley Heights Master Plan**, I understand how to capture a "vibrant, close-knit" community's vision.</p>
+            <div>
+                <h3 class="text-blue-600 font-bold uppercase tracking-widest mb-2">The Consultant</h3>
+                <h2 class="text-4xl font-bold mb-6">Driving Measurable Results via Data & Design.</h2>
+                <p class="text-lg text-slate-600 mb-6">
+                    As a **Transformation Consultant**, I optimize operations and drive impactful change [5]. With a **Six Sigma Green Belt** and 20+ years of experience at industry leaders like **Fiserv** and **InvestCloud**, I specialize in bridging the gap between technology and trust [6-8].
+                </p>
+                <ul class="space-y-4 font-semibold text-slate-800">
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Business Process Improvement & Data Analytics [7]</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> AI-Expedited Website & Brand Development</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Portfolio Management & Strategic Implementation [7]</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Gallery -->
-    <section id="portfolio" class="py-24 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
+    <!-- Fintech Section -->
+    <section id="fintech" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">A Vision for the Future</h2>
-                <p class="text-gray-600">Captured through the lens of experience and innovation.</p>
+                <h2 class="text-4xl font-bold mb-4">Fintech Operational Leadership</h2>
+                <p class="text-slate-400 text-xl max-w-2xl mx-auto">First-class financial digital solutions pre-integrated in the cloud [9].</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Row 1: Your Butterfly, Sunflower, and Frost photos -->
-                <img src="IMG_8196.JPG" class="h-80 w-full object-cover rounded-lg shadow-md" alt="Butterfly">
-                <img src="IMG_5672.JPG" class="h-80 w-full object-cover rounded-lg shadow-md" alt="Sunflower">
-                <img src="AirBrush_20180209160900.jpg" class="h-80 w-full object-cover rounded-lg shadow-md" alt="Frost Abstract">
-                
-                <!-- Row 2: Your Horizon Sunset, Tree, and Carousel photos -->
-                <img src="2016-02-16 06.37.14.jpg" class="h-80 w-full object-cover rounded-lg shadow-md" alt="Horizon Sunset">
-                <img src="IMG_4891.JPG" class="h-80 w-full object-cover rounded-lg shadow-md" alt="Great Tree">
-                <img src="IMG_8139.jpg" class="h-80 w-full object-cover rounded-lg shadow-md" alt="Carousel">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700 service-card">
+                    <i class="fas fa-chart-line text-4xl text-blue-400 mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">SaaS Operations</h3>
+                    <p class="text-slate-400">Scaling global wealth management platforms with focus on data management and operational efficiency [8, 10].</p>
+                </div>
+                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700 service-card">
+                    <i class="fas fa-code-branch text-4xl text-blue-400 mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Release Management</h3>
+                    <p class="text-slate-400">Streamlining complex release readiness templates and procedures across multi-product environments [11, 12].</p>
+                </div>
+                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700 service-card">
+                    <i class="fas fa-users-cog text-4xl text-blue-400 mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Client Loyalty</h3>
+                    <p class="text-slate-400">Driving 21-point increases in Net Promoter Scores through data-driven customer experience programs [3].</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer / Contact -->
-    <footer id="contact" class="bg-gray-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8">Ready to Build Your Better Way?</h2>
-            <p class="mb-4 text-gray-400">Consulting for brand identity, community engagement, and AI-accelerated development.</p>
-            <p class="mb-8 text-xl font-semibold text-blue-400">loubindy@yahoo.com</p>
-            <div class="flex justify-center space-x-6">
-                <!-- Fixed link to open your email -->
-                <a href="mailto:loubindy@yahoo.com" class="bg-blue-600 px-8 py-4 rounded-full hover:bg-blue-700 transition font-bold text-lg">Contact Lucinda</a>
+    <!-- Philanthropy Section -->
+    <section id="philanthropy" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-blue-600 font-bold uppercase tracking-widest mb-2">Philanthropic Operations</h3>
+            <h2 class="text-4xl font-bold mb-12 text-slate-900">Advancing Impact Through Innovative Management.</h2>
+            <div class="grid md:grid-cols-2 gap-12 text-left">
+                <div class="p-8 bg-slate-50 rounded-3xl flex gap-6">
+                    <div class="text-blue-600 text-3xl"><i class="fas fa-hands-holding-circle"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">Strategic Philanthropy</h4>
+                        <p class="text-slate-600 italic">Optimizing processes and fostering partnerships with advisors to enable meaningful charitable giving [1].</p>
+                    </div>
+                </div>
+                <div class="p-8 bg-slate-50 rounded-3xl flex gap-6">
+                    <div class="text-blue-600 text-3xl"><i class="fas fa-network-wired"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">SaaS Integration</h4>
+                        <p class="text-slate-600 italic">Operationalizing account onboarding and implementation workflows for Philanthropic SaaS Platforms [2].</p>
+                    </div>
+                </div>
             </div>
-            <div class="mt-12 pt-8 border-t border-gray-800 text-sm text-gray-500 italic">
-                "Small town roots, no limits to what we can achieve."
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-blue-600 text-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 italic">"A business leader who understands and executes on the larger vision."</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <blockquote class="bg-white/10 p-8 rounded-2xl">
+                    <p class="mb-4">"Lucinda is the 'Jack of all trades.' For every requirement asked of her, she provides excellent and detailed work... she sees every project til completion."</p>
+                    <cite class="font-bold">— Krystle Gelera, InvestCloud [13]</cite>
+                </blockquote>
+                <blockquote class="bg-white/10 p-8 rounded-2xl">
+                    <p class="mb-4">"Lucinda possesses a unique skill set, combining analytical prowess, creativity, and excellent communication... an invaluable asset."</p>
+                    <cite class="font-bold">— Hilary Fiorella, Retired Director [14]</cite>
+                </blockquote>
             </div>
+        </div>
+    </section>
+
+    <!-- Professional Gallery (The Vision) -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="IMG_8196.JPG" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Metamorphosis">
+                <img src="IMG_5672.JPG" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Focus">
+                <img src="AirBrush_20180209160900.jpg" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Precision">
+                <img src="IMG_8139.jpg" class="h-64 w-full object-cover rounded-2xl hover:opacity-80 transition" alt="Momentum">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6 italic text-blue-400">"There has to be a better way."</h2>
+            <p class="text-slate-400 mb-10 text-lg">Let's find it together.</p>
+            <a href="mailto:loubindy@yahoo.com" class="text-2xl font-bold hover:text-blue-400 transition underline underline-offset-8 decoration-blue-500">loubindy@yahoo.com</a>
+            <div class="mt-16 flex justify-center space-x-8 text-slate-500">
+                <a href="#"><i class="fab fa-linkedin text-2xl"></i></a>
+                <a href="#"><i class="fab fa-facebook text-2xl"></i></a>
+            </div>
+            <p class="mt-10 text-xs text-slate-600 uppercase tracking-widest">&copy; 2026 Lucinda Kiger Hayes. All Rights Reserved.</p>
         </div>
     </footer>
 
